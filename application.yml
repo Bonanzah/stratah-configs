@@ -1,0 +1,15 @@
+# ===================================================================
+# JHipster Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: stratah-registry
+    status: Connected to the registry config server, using https://github.com/bonanzah/stratah-configs !
+
+# Default JWT secret token (to be changed in production!)
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: NzYzNjY2ZTQ2MzlkZWJmYWRmN2YyZmU4ZjIxOTRjNGQyMzI5N2UxMTczYWU1ZGQ2MDEzNWE4NzRmZDVjOWEzYjE5Y2JjZThiOTA2MGU1OTFhODhiMGZlYWEyYmFhMjFkZGI2YTJmNTllMzlkOTQ5N2M3MWE5OGYwOTlkN2JkMzI=
